@@ -2,3 +2,9 @@
     $size: $font-size/16;
     @return $size + rem
 }
+
+@mixin flex($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
